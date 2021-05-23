@@ -1,5 +1,8 @@
 /*INDEX*/
 
+.body{
+    font-family: 'Source Sans Pro';
+}
 .preHeader{
     height: 3vh;
     /*background-color:#FFA900;*/
@@ -29,4 +32,15 @@
     background: linear-gradient(180deg, rgba(52,58,64,1) 8%, rgba(52,58,64,1) 44%, rgba(52,58,64,0.7091211484593838) 94%);
 }
 
+.modalHeader{
+    background: rgb(255,169,0);
+    background: linear-gradient(180deg, rgba(255,169,0,1) 0%, rgba(255,169,0,1) 47%, rgba(0,0,0,1) 100%);
+}
+
+.modalFooter{
+    background: rgb(46,48,51);
+    background: linear-gradient(180deg, rgba(46,48,51,1) 43%, rgba(81,93,112,1) 100%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 /*PAGINA INICIO SESION*/
