@@ -49,7 +49,7 @@
                                                 <a class="text-warning nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown">   
                                                   Mi perfil
                                                 </a>
-                                                <ul class="bg-dark dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                <ul class="dropdown-menu colorMenu" aria-labelledby="navbarDropdownMenuLink">
                                                   <li><a class="text-warning dropdown-item" href="#">Editar</a></li>
                                                   <li><a class="text-warning dropdown-item" href="#">Cambiar Contraseña</a></li>
                                                   <li><a class="text-warning dropdown-item" href="#">Salir</a></li>
@@ -63,48 +63,42 @@
                        </div>
                    </div>
                 </div>
-            </div>
-                <!-- Menu de consultas/modificacion/creacion de registros-->
-    <div class="contaner-fluid bg-dark">
-      <div class="container">
-        <div class="row justify-content-start">
-          <div class="col-sm-12 col-md-6">
-            <ul class="nav">
-              <li class="nav-item dropdown">
-                <a class="text-warning nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Consultas 
-                </a>
-                <ul class="colorMenu dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="text-warning dropdown-item" href="#">Movil/Chofer</a></li>
-                  <li><a class="text-warning dropdown-item" href="#">Novedades</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="text-warning nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Nuevo registro
-                </a>
-                <ul class="colorMenu dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="text-warning dropdown-item" data-bs-toggle="modal" data-bs-target="#modalMovil" href="#">Movil</a></li>
-                  <li><a class="text-warning dropdown-item" data-bs-toggle="modal" data-bs-target="#modalChofer" href="#">Chofer</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="text-warning dropdown-item" data-bs-toggle="modal" data-bs-target="#modalNovedad" href="#">Novedad</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+  <!-- Menu de consultas/modificacion/creacion de registros-->
+  <div class="contaner-fluid bg-dark">
+    <div class="container">
+      <div class="row justify-content-start">
+        <div class="col-sm-12 col-md-6">
+          <ul class="nav">
+            <li class="nav-item dropdown">
+              <a class="text-warning nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Consultas 
+              </a>
+              <ul class="dropdown-menu colorMenu" aria-labelledby="navbarDropdown">
+                <li><a class="text-warning dropdown-item" href="#">Movil/Chofer</a></li>
+                <li><a class="text-warning dropdown-item" href="#">Novedades</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="text-warning nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Nuevo registro
+              </a>
+              <ul class="dropdown-menu colorMenu shadow-lg" aria-labelledby="navbarDropdown">
+                <li><a class="text-warning dropdown-item" data-bs-toggle="modal" data-bs-target="#modalMovil" href="#">Movil</a></li>
+                <li><a class="text-warning dropdown-item" data-bs-toggle="modal" data-bs-target="#modalChofer" href="#">Chofer</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="text-warning dropdown-item" data-bs-toggle="modal" data-bs-target="#modalNovedad" href="#">Novedad</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
+  </div>
+  </div>
     </div>
-
-
-
-
-
-
-
+              
     <!-- Aca deberian cargarse los formularios de consulta-->
-    <section class="container border consulta">
+    <section class="container consulta">
         <span>aca iria una imagen con algun titulo referido al sistema, que al dar click en consulta, cargaria un formulario de busqueda.</span>
     </section>
     
@@ -221,8 +215,8 @@
 
           <!--FOOTER DEL MODAL-->
           <div class="modal-footer modalFooter">
-            <button type="button" class="btn btn-success btn-sm">GUARDAR</button>
             <button type="button" class="btn btn-danger btn-sm" data-bs-dismiss="modal">CERRAR</button>
+            <button type="button" class="btn btn-success btn-sm">GUARDAR</button>
           </div>
         </div>
       </div>

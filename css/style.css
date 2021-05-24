@@ -20,6 +20,9 @@
 .consulta{
     width: 100%;
     height: 705px;
+    background: url(../img/fondotaxi1.jpg) no-repeat center top;
+    background-size: cover; 
+    filter: blur(10px);
 }
 
 .fondoHeader{
