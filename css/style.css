@@ -3,16 +3,26 @@
 body{
     font-family: 'Source Sans Pro';
 }
+
 .preHeader{
     height: 3vh;
     /*background-color:#FFA900;*/
     background: rgb(255,169,0);
     background: linear-gradient(180deg, rgba(255,169,0,1) 0%, rgba(255,169,0,1) 47%, rgba(0,0,0,1) 100%);
 }
+
+.postFooter{
+    height: 3vh;
+    /*background-color:#FFA900;*/
+    background: rgb(255,169,0);
+    background: linear-gradient(to top, rgba(255,169,0,1) 0%, rgba(255,169,0,1) 47%, rgba(0,0,0,1) 100%);
+}
+
 .logo{
     width: 75px;
     height: 75px;
 }
+
 .header{
     justify-content: center;
 }
@@ -28,6 +38,11 @@ body{
 .fondoHeader{
     background: rgb(46,48,51);
     background: linear-gradient(180deg, rgba(46,48,51,1) 43%, rgba(81,93,112,1) 100%);
+}
+
+.fondoFooter{
+    background: rgb(46,48,51);
+    background: linear-gradient(to top, rgba(46,48,51,1) 43%, rgba(81,93,112,1) 100%);
 }
 
 .colorMenu{
