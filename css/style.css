@@ -23,6 +23,11 @@ body{
     height: 75px;
 }
 
+.logomodal{
+    width: 25px;
+    height: 25px;
+}
+
 .header{
     justify-content: center;
 }

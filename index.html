@@ -116,16 +116,20 @@
   <!--************************************** MODALES *****************************************************-->
 
   <!-- *************************** INICIO MODAL MOVIL *************************************-->
-
+  
   <!-- el datakeyboard y backdrop solucionaron el tema de que no se cierre cuando tocas por fuera-->
   <div class="modal fade" id="modalMovil" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-keyboard="false" data-bs-backdrop="static">
     <div class="modal-dialog modal-lg modal-dialog-centered">
       <div class="modal-content">
+        
+        <!--header del modal-->
         <div class="modal-header modalHeader">
-          <h5 class="modal-title" id="exampleModalLabel">Nuevo registro Movil</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <img src="img/reallogo.png" alt="" class="logomodal">
+              <h5 class="modal-title text-center" id="exampleModalLabel">&nbsp &nbsp Nuevo registro Movil</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
 
+        <!--Cuerpo del modal-->
         <div class="modal-body bg-light">
           <div class="form-group">
             <form action="">
@@ -182,8 +186,9 @@
                   <input class="form-control form-control-sm" type="date" value="today" id="anio">
                 </div>
               </div>
-
-              <!--TERCERA FILA-->
+              <!-- Esto lo comento porque lo voy a dejar fuera de uso por el momento-->  
+              <!--
+              TERCERA FILA
               <div class="row text-start justify-content-around py-2">
                 <div class="col-12">
                   <label for="titulo" class="form-label fw-bolder">Adjuntar titulo (PDF/JPG/PNG)</label>
@@ -191,14 +196,14 @@
                 </div>
               </div>
 
-              <!--CUARTA FILA-->
+              CUARTA FILA
               <div class="row text-start justify-content-around py-2">
                 <div class="col-12">
                   <label for="seguro" class="form-label fw-bolder">Adjuntar seguro (PDF/JPG/PNG)</label>
                   <input class="form-control form-control-sm" id="seguro" type="file">
                 </div>
               </div>
-
+              --> 
               <!--QUINTA FILA-->
               <div class="row text-center justify-content-around py-2">
                 <div class="col-12 form-floating">
